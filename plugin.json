@@ -1,0 +1,17 @@
+{
+	"id": "nodebb-plugin-toastr",
+	"name": "Toastr Plugin for NodeBB",
+	"description": "Replaces the default toaster message with the more fancier Toastr plugin",
+	"url": "https://github.com/NodeBB/nodebb-plugin-toastr",
+	"library": "./library.js",
+	"staticDirs": {
+		"static": "./static"
+	},
+	"less": [
+		"static/toastr.less"
+	],
+	"scripts": [
+		"static/lib/main.js",
+		"static/lib/toastr.js"
+	]
+}

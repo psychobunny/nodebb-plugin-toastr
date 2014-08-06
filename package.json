@@ -1,0 +1,26 @@
+{
+  "name": "nodebb-plugin-toastr",
+  "version": "0.0.1",
+  "description": "Replaces the default toaster message with the more fancier Toastr plugin",
+  "main": "library.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/psychobunny/nodebb-plugin-toastr"
+  },
+  "keywords": [
+    "nodebb",
+    "plugin",
+    "toastr",
+    "popup",
+    "alert"
+  ],
+  "author": {
+    "name": "psychobunny",
+    "email": "psycho.bunny@hotmail.com"
+  },
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/psychobunny/nodebb-plugin-toastr/issues"
+  },
+  "readmeFilename": "README.md"
+}
