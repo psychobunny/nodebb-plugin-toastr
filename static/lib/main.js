@@ -22,6 +22,10 @@ $(document).ready(function() {
 			"hideMethod": "fadeOut"
 		};
 
+		if (params.type === 'danger') {
+			params.type = 'error';
+		}
+
 		translator.translate(params.message, function(translatedHTML) {
 			toastr[params.type](translatedHTML);
 			$('.toast-right-top, .toast-left-top').css('top', $('#content').offset().top + 15);
